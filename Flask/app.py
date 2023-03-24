@@ -135,4 +135,4 @@ def news20White():
     return render_template('White House says tax bill will not hurt Puerto Rico _ Reuters.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False,host='0.0.0.0')
